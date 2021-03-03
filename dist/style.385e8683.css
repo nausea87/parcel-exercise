@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  font-family: Helvetica, sans-serif;
+}
+
+.container-1, .container-2 {
+  background-color: #252f3f;
+  height: 100%;
+  width: 50%;
+}
+
+.container-2 {
+  background-color: blanchedalmond;
+}
+
+.grid-container {
+  display: grid;
+}
+
+.grid-item1 {
+  height: 7.5rem;
+  width: 100%;
+  background-color: #252f3f;
+  display: flex;
+  flex-direction: row;
+}
+.grid-item1 img {
+  margin: 2rem;
+}
+.grid-item1 li {
+  margin: 3rem 2rem;
+  font-weight: 500;
+  font-style: bold;
+  display: inline-block;
+}
+
+.grid-item2 {
+  height: 5rem;
+  background-color: #252f3f;
+}
+
+.grid-item3 {
+  background-color: #252f3f;
+  width: 100%;
+  height: 5rem;
+}
+.grid-item3 .hiring-box {
+  width: 24rem;
+  background-color: #151a24;
+  height: 2.4rem;
+  margin-left: 2rem;
+  border-radius: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.grid-item3 .hiring-box2 {
+  width: 9rem;
+  background-color: #6a63ad;
+  height: 1.6rem;
+  padding: 0.3rem 1rem;
+  margin-left: 0.3rem;
+  border-radius: 4rem;
+}
+.grid-item3 .visit {
+  margin-left: -1rem;
+}
+.grid-item3 .arrow {
+  padding-right: 1rem;
+  font-weight: 600;
+}
+
+.grid-item4 {
+  padding: 2rem;
+  padding-top: 0rem;
+}
+.grid-item4 h1 {
+  font-size: 92px;
+}
+.grid-item4 h2 {
+  font-size: 78px;
+  color: #8eadcf;
+}
+.grid-item4 p {
+  font-size: 22px;
+  color: #cacaca;
+  padding-top: 2rem;
+  width: 80%;
+}
+.grid-item4 .used-by {
+  color: white;
+}
+.grid-item4 img {
+  margin-top: 2rem;
+}
+
+.grid-container-2 {
+  display: grid;
+  height: 100%;
+  width: 50%;
+  background-color: #252f3f;
+}
+.grid-container-2 .login-container {
+  display: flex;
+  height: 5rem;
+  width: 100%;
+  flex-direction: row-reverse;
+}
+.grid-container-2 .login-container .login-box {
+  width: 6rem;
+  height: 2.8rem;
+  border-radius: 1rem;
+  background-color: #4b5563;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.grid-container-2 .sign-in-form-container {
+  display: flex;
+  background-color: #252f3f;
+  margin-bottom: 20%;
+}
+/*# sourceMappingURL=style.385e8683.css.map */
